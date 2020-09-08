@@ -1,5 +1,4 @@
 import React from "react"
-let ReactCSSTransitionGroup = require('react-addons-css-transition-group');
 
 class App extends React.Component {
     render() {
@@ -9,7 +8,11 @@ class App extends React.Component {
                 transitionAppear = {true} transitionAppearTimeout = {500}
                 transitionEnter = {false} transitionLeave = {false}>
                      
-                <h1>My Element...</h1>
+                <h1>
+                   <div>
+                      <img src = "arrow" alt= "arrow"/>
+                   </div>
+                </h1>
              </ReactCSSTransitionGroup>
           </div>      
        );
